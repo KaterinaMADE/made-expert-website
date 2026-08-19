@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>How We Work Together | The Consulting Growth Framework | made.expert</title>
+<meta name="description" content="A four-stage system, Audit, Strategy Sprint, Launch, Maintenance, built on the Consulting Growth Framework: Foundation, Connection, Execution. See what's included at every stage.">
+<link rel="canonical" href="https://made.expert/how-to-work.html">
+<link rel="manifest" href="site.webmanifest">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon2-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon2-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/images/favicon2-48.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon2-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon2-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/images/favicon2-512.png">
+<meta property="og:title" content="How We Work Together | The Consulting Growth Framework | made.expert">
+<meta property="og:description" content="A four-stage system, Audit, Strategy Sprint, Launch, Maintenance, built on the Consulting Growth Framework: Foundation, Connection, Execution. See what's included at every stage.">
+<meta property="og:image" content="https://made.expert/assets/images/og-image.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://made.expert/how-to-work.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How We Work Together | The Consulting Growth Framework | made.expert">
+<meta name="twitter:description" content="A four-stage system, Audit, Strategy Sprint, Launch, Maintenance, built on the Consulting Growth Framework: Foundation, Connection, Execution. See what's included at every stage.">
+<meta name="twitter:image" content="https://made.expert/assets/images/og-image.jpg">
+<style>
+  :root {
+    --navy: #003366;
+    --navy-deep: #00264d;
+    --cream: #fff4e0;
+    --gold: #e6b800;
+    --orange: #d24e00;
+    --muted: #9db3cc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--navy-deep);
+    color: var(--cream);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 32px; }
+  .wrap-narrow { max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+  header {
+    background: var(--navy);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 22px 32px;
+  }
+  .logo { font-size: 20px; font-weight: 700; color: var(--cream); } .logo img { height: 52px; display: block; }
+  nav { display: flex; gap: 32px; }
+  nav a { color: #b9c9dd; text-decoration: none; font-size: 14px; font-weight: 500; }
+  nav a.active { color: var(--cream); }
+  .btn-primary {
+    background: var(--orange); color: var(--cream); border: none;
+    padding: 11px 22px; border-radius: 6px; font-size: 14px; font-weight: 600;
+    cursor: pointer;
+  }
+
+  .intro { padding: 70px 0 20px; text-align: center; }
+  .eyebrow {
+    color: var(--orange); font-size: 13px; font-weight: 700; letter-spacing: 2px;
+    text-transform: uppercase; margin-bottom: 16px;
+  }
+  h1 { font-size: 36px; margin: 0 0 22px; font-weight: 600; }
+  .intro p { font-size: 17px; color: var(--muted); max-width: 640px; margin: 0 auto; }
+
+  .flow { padding: 60px 0; }
+  .flow-item {
+    display: flex; gap: 22px; align-items: flex-start;
+    padding: 26px 0;
+    border-bottom: 1px solid rgba(255,244,224,0.08);
+  }
+  .flow-item:last-child { border-bottom: none; }
+  .flow-num {
+    flex-shrink: 0;
+    width: 34px; height: 34px; border-radius: 50%;
+    background: rgba(230,184,0,0.12);
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700;
+  }
+  .flow-text { font-size: 15.5px; color: var(--cream); padding-top: 3px; }
+  .flow-text b { color: var(--gold); }
+
+  .stop-note {
+    text-align: center; font-size: 15px; color: var(--muted);
+    max-width: 560px; margin: 0 auto; padding: 0 32px;
+  }
+
+  .stepper-section { padding: 20px 0 60px; }
+  .stepper-heading { text-align: center; font-size: 14px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 40px; }
+
+  .stepper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 46px;
+  }
+  .stepper::before {
+    content: '';
+    position: absolute;
+    top: 21px; left: 40px; right: 40px;
+    height: 2px;
+    background: rgba(255,244,224,0.15);
+    z-index: 0;
+  }
+  .step {
+    position: relative; z-index: 1;
+    flex: 1;
+    display: flex; flex-direction: column; align-items: center;
+    cursor: pointer;
+    background: none; border: none; color: inherit;
+    padding: 0;
+  }
+  .step .dot {
+    width: 44px; height: 44px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; font-weight: 700;
+    background: var(--navy-deep);
+    border: 2px solid rgba(255,244,224,0.25);
+    color: var(--muted);
+    transition: all 0.2s ease;
+    margin-bottom: 12px;
+  }
+  .step .label {
+    font-size: 13px; font-weight: 600; color: var(--muted);
+    text-align: center; letter-spacing: 0.3px;
+    transition: color 0.2s ease;
+  }
+  .step .duration {
+    font-size: 11px; color: rgba(157,179,204,0.6);
+    margin-top: 2px;
+  }
+  .step.active .dot {
+    background: var(--orange); border-color: var(--orange); color: var(--cream);
+  }
+  .step.active .label { color: var(--cream); }
+
+  .panel {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,244,224,0.1);
+    border-radius: 14px;
+    padding: 40px 44px;
+  }
+  .panel-header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 6px; flex-wrap: wrap; }
+  .panel-title { font-size: 24px; font-weight: 700; color: var(--cream); margin: 0; }
+  .panel-duration { font-size: 13px; color: var(--gold); font-weight: 600; }
+  .panel-tagline { font-size: 16px; color: var(--muted); margin: 0 0 26px; }
+
+  .outcomes { list-style: none; margin: 0 0 18px; padding: 0; }
+  .outcomes li {
+    display: flex; align-items: flex-start; gap: 12px;
+    font-size: 15px; color: var(--cream);
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,244,224,0.07);
+  }
+  .outcomes li:last-child { border-bottom: none; }
+  .outcomes li::before {
+    content: '';
+    flex-shrink: 0;
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--gold);
+    margin-top: 8px;
+  }
+  .panel-footnote {
+    font-size: 13.5px; color: var(--muted);
+    background: rgba(230,184,0,0.08);
+    border-left: 2px solid var(--gold);
+    padding: 12px 16px;
+    margin-top: 20px;
+  }
+
+  .panel-body { display: none; }
+  .panel-body.active { display: block; }
+
+  .principles { background: var(--navy); padding: 70px 0; }
+  .principles h2 { text-align: center; font-size: 24px; margin: 0 0 12px; }
+  .principles > .wrap > p.sub { text-align: center; color: var(--muted); max-width: 560px; margin: 0 auto 44px; font-size: 15px; }
+  .principle-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .principle-card h3 { font-size: 16px; color: var(--gold); margin: 0 0 8px; }
+  .principle-card p { font-size: 14px; color: var(--muted); margin: 0; }
+
+  .cta-strip { text-align: center; padding: 80px 0; }
+  .cta-strip h2 { font-size: 26px; margin: 0 0 24px; }
+
+  footer { background: var(--navy-deep); border-top: 1px solid rgba(255,244,224,0.08); padding: 60px 0 40px; }
+  footer .wrap { display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center; }
+  footer p { color: #b9c9dd; font-size: 13px; margin: 3px 0; }
+  footer h3.contact-title { font-size: 22px; margin: 10px 0 0; color: var(--cream); }
+  .contact-icons { display: flex; gap: 20px; margin: 6px 0 10px; }
+  .icon-circle {
+    width: 54px; height: 54px; border-radius: 50%;
+    border: 1px solid rgba(255,244,224,0.4);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--cream); text-decoration: none;
+    transition: border-color 0.2s ease, background 0.2s ease;
+  }
+  .icon-circle:hover { border-color: var(--gold); background: rgba(230,184,0,0.08); }
+  .footer-legal { font-size: 11.5px; color: #7f93aa; }
+
+  .note { text-align: center; color: rgba(255,244,224,0.3); font-size: 12px; padding: 20px 0 0; }
+
+  .panel-desc { font-size: 15px; color: var(--cream); margin: 0 0 22px; line-height: 1.6; }
+  .how-i-work-wrap { max-width: 680px; margin: 20px auto 70px; padding: 0 32px; }
+  .how-i-work {
+    text-align: center; font-size: 14.5px; color: var(--muted); line-height: 1.6;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,244,224,0.12);
+    border-radius: 12px;
+    padding: 26px 32px;
+    margin: 0;
+  }
+  .cta-strip .support { font-size: 15px; color: var(--muted); max-width: 520px; margin: 0 auto 28px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><img src="data:image/png;base64,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" alt="made."></div>
+  <nav>
+    <a href="how-to-work.html" class="active">How to Work</a>
+    <a href="insights/index.html">Insights</a>
+    <a href="about.html">About</a>
+  </nav>
+  <a class="btn-primary" style="display:inline-block;text-decoration:none;" href="https://zcal.com/katerinabraga/call" target="_blank" rel="noopener">Book a call</a>
+</header>
+
+<div class="intro">
+  <div class="eyebrow">HOW WE WORK TOGETHER</div>
+  <h1>One system in four stages</h1>
+  <p>Audit, Strategy Sprint, Launch, and Maintenance aren't separate services you pick and choose from. They're one system, each stage picking up exactly where the last one left off, so nothing gets rebuilt from scratch along the way. Select a stage below to see what's included.</p>
+</div>
+
+<div class="wrap stepper-section">
+  <h2 style="text-align:center; font-size:24px; margin: 0 0 40px;">Explore each stage</h2>
+
+  <div class="stepper" id="stepper">
+    <button class="step active" data-target="0">
+      <div class="dot">01</div>
+      <div class="label">Audit</div>
+      <div class="duration">~1 week</div>
+    </button>
+    <button class="step" data-target="1">
+      <div class="dot">02</div>
+      <div class="label">Sprint</div>
+      <div class="duration">3 months</div>
+    </button>
+    <button class="step" data-target="2">
+      <div class="dot">03</div>
+      <div class="label">Launch</div>
+      <div class="duration">3 months</div>
+    </button>
+    <button class="step" data-target="3">
+      <div class="dot">04</div>
+      <div class="label">Maintenance</div>
+      <div class="duration">month 7+</div>
+    </button>
+  </div>
+
+  <div class="panel">
+
+    <div class="panel-body active" data-panel="0">
+      <div class="panel-header">
+        <h2 class="panel-title">Audit</h2>
+        <span class="panel-duration">About a week</span>
+      </div>
+      <p class="panel-desc">We start with the Audit, so we both know exactly where you stand today, not where you assume you stand. I score your positioning, content, channels, and sales process, and compare you against your direct competitors. By the end, you know exactly what's costing you clients and where the fastest wins are.</p>
+      <ul class="outcomes">
+        <li>A structured audit report</li>
+        <li>Positioning &amp; offers score</li>
+        <li>Your content system and client acquisition channels score</li>
+        <li>Your sales and operations score</li>
+        <li>Your top 3 quick wins, named</li>
+        <li>A debrief call to walk through it together</li>
+      </ul>
+      <p class="panel-footnote">If you continue into the Strategy Sprint within 30 days, the Audit fee credits in full toward your first month.</p>
+    </div>
+
+    <div class="panel-body" data-panel="1">
+      <div class="panel-header">
+        <h2 class="panel-title">Strategy Sprint</h2>
+        <span class="panel-duration">3 months</span>
+      </div>
+      <p class="panel-desc">Next comes the Strategy Sprint. Over three months, we build the system your business runs on: who you're really for, what you offer and how it's priced, how the right clients find you, and how interest turns into signed work. By the end, positioning, offer, pipeline, and process aren't guesswork anymore, you have an actual plan, mapped out and ready to build.</p>
+      <ul class="outcomes">
+        <li>Your target market and ICP</li>
+        <li>A positioning brief and offer ladder</li>
+        <li>A messaging framework</li>
+        <li>A channel plan</li>
+        <li>A referral and networking system</li>
+        <li>Your personal brand roadmap</li>
+        <li>A sales process and account targeting plan</li>
+        <li>A proposal template</li>
+        <li>A delivery playbook, so quality doesn't depend on you alone</li>
+        <li>A 30-90-180 day action plan</li>
+      </ul>
+    </div>
+
+    <div class="panel-body" data-panel="2">
+      <div class="panel-header">
+        <h2 class="panel-title">Launch</h2>
+        <span class="panel-duration">3 months</span>
+      </div>
+      <p class="panel-desc">In Launch, that plan becomes real. Over another three months, we build the website, relaunch your LinkedIn presence, set up email and outreach, and get the whole system live. By the end, you have a working pipeline: a site that reflects who you are now, content going out on schedule, and outreach already reaching the right people.</p>
+      <ul class="outcomes">
+        <li>A live website with booking, analytics, SEO, and AI search foundations</li>
+        <li>LinkedIn relaunched and posting live</li>
+        <li>Email platform set up, including a newsletter template and a live welcome sequence</li>
+        <li>A lead list and first outreach contacts</li>
+        <li>CRM (customer relationship management tool) live</li>
+        <li>Sales presentation and case studies</li>
+        <li>KPI and reporting system live</li>
+        <li>Other marketing tools, on demand</li>
+      </ul>
+    </div>
+
+    <div class="panel-body" data-panel="3">
+      <div class="panel-header">
+        <h2 class="panel-title">Maintenance</h2>
+        <span class="panel-duration">From month 7, ongoing</span>
+      </div>
+      <p class="panel-desc">From month 7 onward, the system runs at full capacity, building awareness and trust, and bringing in new clients on its own. You can bring it in-house with your own team, or I stay on and run it with you. Either way, the pipeline keeps working without depending on you personally to hold it together.</p>
+      <ul class="outcomes">
+        <li>Website management, with SEO and AI search foundations kept current</li>
+        <li>LinkedIn management: posts, comments, DMs</li>
+        <li>One long-form article a month</li>
+        <li>Two newsletters a month</li>
+        <li>Ongoing outreach</li>
+        <li>Sales presentation and case studies</li>
+        <li>One strategy session a month</li>
+        <li>Monthly reporting</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<p class="stop-note">You can stop after any stage. There's no obligation to go all the way through, each one stands on its own.</p>
+
+<div class="how-i-work-wrap">
+  <p class="how-i-work">I do this work myself, combining strategy and execution, and bring in technical specialists only where it's genuinely needed. I also use AI tools, but everything goes through my own detailed edit before it reaches you, so it keeps your voice. That gives you one point of accountability, and consistently high quality work. My capacity is limited by design, I work with clients I'm confident I can get a strong result for, not everyone who reaches out.</p>
+</div>
+
+<div class="principles">
+  <div class="wrap">
+    <h2 style="text-align:center;">What stays constant at every stage</h2>
+    <p class="sub">At every stage, we move through the same three milestones that decide whether a consulting business grows sustainably.</p>
+<div class="wrap" style="padding: 10px 0 30px; display:flex; justify-content:center;">
+<svg width="640" height="460" viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg">
+  <text x="500" y="48" text-anchor="middle" font-size="19" letter-spacing="4" fill="#9db3cc" font-weight="600">THE CONSULTING GROWTH FRAMEWORK</text>
+
+  <g transform="translate(500,380)">
+    <circle r="137.5" fill="none" stroke="#d24e00" stroke-width="45"/>
+    <circle r="92.5" fill="none" stroke="#e6b800" stroke-width="45"/>
+    <circle r="70" fill="#fff4e0"/>
+    <circle r="160" fill="none" stroke="rgba(255,244,224,0.25)" stroke-width="2"/>
+    <circle r="115" fill="none" stroke="rgba(255,244,224,0.25)" stroke-width="2"/>
+    <circle r="70" fill="none" stroke="rgba(255,244,224,0.25)" stroke-width="2"/>
+  </g>
+
+  <line x1="500" y1="287.5" x2="500" y2="165" stroke="rgba(255,244,224,0.35)" stroke-width="1.5"/>
+  <circle cx="500" cy="287.5" r="6" fill="#e6b800"/>
+  <text x="500" y="136" text-anchor="middle" font-size="26" font-weight="700" fill="#fff4e0">CONNECTION</text>
+  <text x="500" y="161" text-anchor="middle" font-size="18" fill="#9db3cc">Content · Channels · Personal Brand</text>
+
+  <line x1="439" y1="415" x2="314" y2="487" stroke="rgba(255,244,224,0.35)" stroke-width="1.5"/>
+  <circle cx="439" cy="415" r="6" fill="#fff4e0"/>
+  <text x="298" y="496" text-anchor="end" font-size="26" font-weight="700" fill="#fff4e0">FOUNDATION</text>
+  <text x="298" y="521" text-anchor="end" font-size="18" fill="#9db3cc">Positioning · Offer</text>
+
+  <line x1="619" y1="449" x2="686" y2="487" stroke="rgba(255,244,224,0.35)" stroke-width="1.5"/>
+  <circle cx="619" cy="449" r="6" fill="#d24e00"/>
+  <text x="702" y="496" text-anchor="start" font-size="26" font-weight="700" fill="#fff4e0">EXECUTION</text>
+  <text x="702" y="521" text-anchor="start" font-size="18" fill="#9db3cc">Sales · Delivery · Operations</text>
+
+</svg>
+</div>
+
+    <div class="principle-grid">
+      <div class="principle-card">
+        <h3>Foundation</h3>
+        <p>Positioning and offer get tested and refined at every stage, not decided once and left alone.</p>
+      </div>
+      <div class="principle-card">
+        <h3>Connection</h3>
+        <p>Content, channels, and your own presence stay consistent, so the market recognizes you as you grow.</p>
+      </div>
+      <div class="principle-card">
+        <h3>Execution</h3>
+        <p>Sales and delivery stay repeatable, so results don't depend on you personally holding it all together.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="cta-strip">
+  <h2>Ready to see where you stand?</h2>
+  <p class="support">Book a 45-minute discovery call. We'll talk about your situation, see if there's a fit, and answer your questions. If it makes sense, we'll schedule the full Audit.</p>
+  <a class="btn-primary" style="display:inline-block;text-decoration:none;" href="https://zcal.com/katerinabraga/call" target="_blank" rel="noopener">Book a call</a>
+</div>
+
+
+<footer>
+  <div class="wrap">
+    <h3 class="contact-title">Contact me</h3>
+    <div class="contact-icons">
+      <a class="icon-circle" href="mailto:kate@made.expert" title="kate@made.expert" aria-label="Email">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg>
+      </a>
+      <a class="icon-circle" href="https://www.linkedin.com/in/katerina-braga/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V23h-4v-6.7c0-1.6-.03-3.66-2.23-3.66-2.23 0-2.57 1.74-2.57 3.55V23h-4V8.5z"/></svg>
+      </a>
+      <a class="icon-circle" href="https://zcal.com/katerinabraga/call" target="_blank" rel="noopener" title="Book a call" aria-label="Book a call">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M3 9.5h18M8 3v3M16 3v3"/><rect x="7" y="12.5" width="3" height="3"/></svg>
+      </a>
+    </div>
+    <p>made.expert · Vienna</p>
+    <p class="footer-legal"><a href="legal/impressum.html">Impressum</a> · <a href="legal/datenschutzerklarung.html">Datenschutzerklärung</a> · <a href="legal/agb.html">AGB</a> · © 2026 Marketing Agency "Digital Energy" e.U.</p>
+  </div>
+</footer>
+
+
+<script>
+  const steps = document.querySelectorAll('.step');
+  const panels = document.querySelectorAll('.panel-body');
+  steps.forEach(step => {
+    step.addEventListener('click', () => {
+      const target = step.getAttribute('data-target');
+      steps.forEach(s => s.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+      step.classList.add('active');
+      document.querySelector(`.panel-body[data-panel="${target}"]`).classList.add('active');
+    });
+  });
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "made.expert",
+  "alternateName": "Marketing Agency \"Digital Energy\" e.U.",
+  "url": "https://made.expert/",
+  "logo": "https://made.expert/assets/images/og-image.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/in/katerina-braga/"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Katerina Braga",
+    "sameAs": "https://www.linkedin.com/in/katerina-braga/"
+  }
+}
+</script>
+
+<!--
+  Placeholder consent banner. Replace with the real CookieYes embed script once
+  Kate's CookieYes account is set up; this vanilla implementation covers the same
+  consent-gating behavior described in the privacy policy (Datenschutzerklaerung,
+  section 1.2 / 1.3 / 2) in the meantime: it blocks Google Analytics and the
+  LinkedIn Insight Tag from loading until the visitor accepts.
+-->
+<div id="cookie-consent-banner" style="display:none;position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#00264d;color:#fff4e0;padding:18px 24px;box-shadow:0 -2px 12px rgba(0,0,0,0.25);font-family:'Inter','Helvetica Neue',Arial,sans-serif;">
+  <div style="max-width:1040px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;">
+    <p style="margin:0;font-size:13.5px;line-height:1.5;max-width:640px;">
+      We use cookies for basic site function and, with your consent, for analytics (Google Analytics) and LinkedIn ad measurement (LinkedIn Insight Tag). See our
+      <a href="legal/datenschutzerklarung.html" style="color:#e6b800;">Datenschutzerklärung</a> for details.
+    </p>
+    <div style="display:flex;gap:10px;flex-shrink:0;">
+      <button id="cookie-consent-decline" style="background:transparent;color:#fff4e0;border:1px solid rgba(255,244,224,0.4);padding:10px 18px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;">Decline</button>
+      <button id="cookie-consent-accept" style="background:#d24e00;color:#fff4e0;border:none;padding:10px 18px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;">Accept</button>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  function getCookie(name) {
+    var m = document.cookie.match('(?:^|; )' + name + '=([^;]*)');
+    return m ? decodeURIComponent(m[1]) : null;
+  }
+  function setCookie(name, value, days) {
+    var d = new Date();
+    d.setTime(d.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = name + '=' + encodeURIComponent(value) + ';expires=' + d.toUTCString() + ';path=/;SameSite=Lax';
+  }
+
+  function loadAnalyticsScripts() {
+    // --- Google Analytics 4 (GA4) placeholder ---
+    // Replace REPLACE_WITH_GA4_ID with the real GA4 measurement ID (format: G-XXXXXXXXXX)
+    var gaId = 'REPLACE_WITH_GA4_ID';
+    var gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+    document.head.appendChild(gaScript);
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', gaId);
+
+    // --- LinkedIn Insight Tag placeholder ---
+    // Replace REPLACE_WITH_LINKEDIN_PARTNER_ID with the real LinkedIn partner ID
+    var liPartnerId = 'REPLACE_WITH_LINKEDIN_PARTNER_ID';
+    window._linkedin_partner_id = liPartnerId;
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(liPartnerId);
+    (function (l) {
+      if (!l) {
+        window.lintrk = function (a, b) { window.lintrk.q.push([a, b]); };
+        window.lintrk.q = [];
+      }
+      var s = document.getElementsByTagName('script')[0];
+      var b = document.createElement('script');
+      b.type = 'text/javascript';
+      b.async = true;
+      b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
+      s.parentNode.insertBefore(b, s);
+    })(window.lintrk);
+  }
+
+  function showBanner() {
+    var el = document.getElementById('cookie-consent-banner');
+    if (el) el.style.display = 'block';
+  }
+  function hideBanner() {
+    var el = document.getElementById('cookie-consent-banner');
+    if (el) el.style.display = 'none';
+  }
+
+  var consent = getCookie('made_expert_cookie_consent');
+  if (consent === 'accepted') {
+    loadAnalyticsScripts();
+  } else if (consent !== 'declined') {
+    document.addEventListener('DOMContentLoaded', showBanner);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var acceptBtn = document.getElementById('cookie-consent-accept');
+    var declineBtn = document.getElementById('cookie-consent-decline');
+    if (acceptBtn) {
+      acceptBtn.addEventListener('click', function () {
+        setCookie('made_expert_cookie_consent', 'accepted', 180);
+        hideBanner();
+        loadAnalyticsScripts();
+      });
+    }
+    if (declineBtn) {
+      declineBtn.addEventListener('click', function () {
+        setCookie('made_expert_cookie_consent', 'declined', 180);
+        hideBanner();
+      });
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
