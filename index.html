@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Katerina Braga | Industrial Marketing &amp; Communications Consultant | MADE</title>
+<meta name="description" content="Industrial marketing and communications consultant in Vienna. I help technical companies and consultancies in energy and industry explain complex offers clearly and convince their buyers. Strategy and hands-on delivery.">
+<meta name="author" content="Katerina Braga">
+<link rel="canonical" href="https://made.expert/">
+<link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/poppins-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="manifest" href="site.webmanifest">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon2-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon2-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="assets/images/favicon2-48.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon2-180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon2-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/images/favicon2-512.png">
+<meta property="og:title" content="Katerina Braga | Industrial Marketing &amp; Communications Consultant">
+<meta property="og:description" content="Turn complex expertise into deals. I help technical companies and consultancies in energy and industry explain complex offers clearly and convince their buyers.">
+<meta property="og:image" content="https://made.expert/assets/images/og-image.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://made.expert/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Katerina Braga | Industrial Marketing &amp; Communications Consultant">
+<meta name="twitter:description" content="Turn complex expertise into deals. I help technical companies and consultancies in energy and industry explain complex offers clearly and convince their buyers.">
+<meta name="twitter:image" content="https://made.expert/assets/images/og-image.jpg">
+<style>
+  @font-face { font-family: 'Inter'; font-weight: 400; font-style: normal; font-display: swap; src: url('/assets/fonts/inter-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 500; font-style: normal; font-display: swap; src: url('/assets/fonts/inter-latin-500-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Inter'; font-weight: 600; font-style: normal; font-display: swap; src: url('/assets/fonts/inter-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Poppins'; font-weight: 600; font-style: normal; font-display: swap; src: url('/assets/fonts/poppins-latin-600-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Poppins'; font-weight: 700; font-style: normal; font-display: swap; src: url('/assets/fonts/poppins-latin-700-normal.woff2') format('woff2'); }
+
+  :root {
+    --navy: #003366;
+    --navy-deep: #00264d;
+    --navy-card: #0a3460;
+    --line: rgba(255,244,224,0.16);
+    --white: #fff4e0;      /* the one text colour on dark backgrounds */
+    --ink: #00264d;        /* the one text colour on light cards */
+    --gold: #e6b800;
+    --orange: #d24e00;
+
+    /* Three type sizes for the whole site */
+    --fs-l: 52px;          /* headings */
+    --fs-m: 24px;          /* gold/orange accent lines, card titles */
+    --fs-s: 21px;          /* all other text */
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--navy-deep);
+    color: var(--white);
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-size: var(--fs-s);
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4 { font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif; line-height: 1.2; color: var(--white); }
+  p { margin: 0 0 18px; }
+  img { max-width: 100%; height: auto; display: block; }
+
+  .wrap { max-width: 1440px; margin: 0 auto; padding: 0 40px; }
+  .text-col { max-width: 860px; }
+
+  /* Size L */
+  h1, h2, h3.sub-title, .about-text .hi { font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif; line-height: 1.2; font-size: var(--fs-l); font-weight: 700; margin: 0 0 24px; letter-spacing: -0.3px; }
+  /* Size M */
+  .accent, .eyebrow, .exp-item b, .card .num, .card h3, .col h4, .role h4, .insight h3 {
+    font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif; font-size: var(--fs-m); font-weight: 600; line-height: 1.3;
+  }
+  .accent, .exp-item b, .card .num, .role h4 { color: var(--gold); }
+  .eyebrow { color: var(--orange); margin: 0 0 14px; }
+
+  header { background: var(--navy); position: sticky; top: 0; z-index: 10; }
+  .header-inner { display: flex; align-items: center; justify-content: space-between; padding-top: 16px; padding-bottom: 16px; }
+  header img.logo { height: 52px; width: auto; }
+  nav { display: flex; gap: 40px; }
+  nav a { color: var(--white); text-decoration: none; font-weight: 500; }
+  nav a:hover, nav a.active { color: var(--gold); }
+
+  .btn {
+    display: inline-block; text-decoration: none; border-radius: 6px;
+    font-size: var(--fs-s); font-weight: 600; padding: 14px 30px; font-family: 'Inter', sans-serif; line-height: 1.3;
+    transition: background .2s ease, border-color .2s ease;
+  }
+  .btn-primary { background: var(--orange); color: var(--white); }
+  .btn-primary:hover { background: #b84400; }
+  .btn-secondary { color: var(--white); border: 1px solid rgba(255,244,224,0.45); }
+  .btn-secondary:hover { border-color: var(--white); }
+  .btn-small { padding: 10px 22px; }
+  .link-gold { color: var(--gold); text-decoration: none; font-weight: 600; }
+
+  section { padding: 110px 0; }
+  section.alt { background: var(--navy); }
+  .section-lead { max-width: 900px; margin: 0; }
+
+  /* Hero */
+  .hero { padding: 72px 0 0; background: linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%); }
+  .hero-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 72px; align-items: center; }
+  .hero h1 { margin-bottom: 28px; }
+  .hero .accent { margin: 0 0 20px; }
+  .hero .sub { max-width: 680px; margin: 0 0 8px; }
+  .hero .sub-strong { font-weight: 600; margin: 0 0 40px; }
+  .hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
+  .hero-photo img { width: 100%; max-width: 540px; margin-left: auto; border-radius: 14px; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 20%; box-shadow: 0 30px 60px rgba(0,0,0,0.35); }
+
+  .exp-strip { margin-top: 80px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, 1fr); }
+  .exp-item { padding: 28px 28px; line-height: 1.45; }
+  .exp-item + .exp-item { border-left: 1px solid var(--line); }
+  .exp-item b { display: block; margin-bottom: 6px; }
+
+  /* Offers */
+  .cards-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 52px; }
+  .card { background: var(--navy-card); border: 1px solid var(--line); border-radius: 14px; padding: 36px 34px; }
+  .card .num { margin-bottom: 14px; }
+  .card h3 { margin: 0 0 16px; }
+  .card p { margin: 0; }
+
+  .sub-block { margin-top: 110px; }
+  .cols-3 { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 44px; border-top: 2px solid var(--gold); }
+  .col { padding: 30px 34px 0 0; }
+  .col + .col { padding-left: 34px; border-left: 1px solid var(--line); }
+  .col h4 { margin: 0 0 12px; }
+  .col p { margin: 0; }
+
+  .fractional { margin-top: 110px; display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+  .roles { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  .role { border: 1px solid var(--line); border-radius: 14px; padding: 30px 32px; background: var(--navy-card); }
+  .role h4 { margin: 0 0 10px; }
+  .role p { margin: 0; }
+
+  .fit { margin-top: 110px; background: var(--navy); border: 1px solid var(--line); border-radius: 16px; padding: 56px 60px; }
+  .fit-list { list-style: none; padding: 0; margin: 30px 0 44px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px 56px; }
+  .fit-list li { position: relative; padding-left: 36px; }
+  .fit-list li::before { content: ""; position: absolute; left: 0; top: 9px; width: 16px; height: 9px; border-left: 2px solid var(--gold); border-bottom: 2px solid var(--gold); transform: rotate(-45deg); }
+
+  /* Testimonials */
+  .quotes { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 52px; }
+  .quote { margin: 0; background: var(--white); color: var(--ink); border-radius: 14px; padding: 40px 42px; display: flex; flex-direction: column; }
+  .quote::before { content: "\201C"; font-family: 'Poppins', serif; font-size: var(--fs-l); line-height: .6; color: var(--orange); height: 30px; }
+  .quote p { margin: 0 0 26px; flex: 1; }
+  .quote .by { border-top: 1px solid #e6d6b8; padding-top: 18px; }
+  .quote .by b { font-weight: 600; }
+
+  /* About */
+  .about-grid { display: grid; grid-template-columns: 440px 1fr; gap: 72px; align-items: start; }
+  .about-grid img { border-radius: 14px; aspect-ratio: 4 / 5; object-fit: cover; width: 100%; }
+
+  /* Insights */
+  .insights-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; }
+  .insights-head h2 { margin: 0; }
+  .insights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 44px; }
+  .insight { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); background: #fff; border-radius: 14px; padding: 34px; transition: transform .2s ease, box-shadow .2s ease; }
+  .insight:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(0,0,0,0.25); }
+  .insight h3 { color: var(--ink); margin: 0 0 14px; }
+  .insight p { margin: 0 0 18px; flex: 1; }
+  .insight span { font-weight: 600; color: var(--orange); }
+
+  /* Closing CTA */
+  .cta { text-align: center; padding: 120px 0; background: var(--navy); }
+  .cta h2 { max-width: 900px; margin: 0 auto 40px; }
+
+  footer { padding: 80px 0 44px; text-align: center; border-top: 1px solid var(--line); }
+  footer h3 { font-size: var(--fs-m); font-weight: 600; margin: 0 0 26px; }
+  .contact-icons { display: flex; justify-content: center; gap: 16px; margin-bottom: 28px; }
+  .icon-circle { width: 56px; height: 56px; border-radius: 50%; border: 1px solid rgba(255,244,224,0.4); display: flex; align-items: center; justify-content: center; color: var(--white); text-decoration: none; transition: border-color .2s ease, color .2s ease; }
+  .icon-circle:hover { border-color: var(--gold); color: var(--gold); }
+  footer p { margin: 6px 0; }
+  .footer-legal a { color: var(--white); }
+
+  @media (max-width: 1100px) {
+    :root { --fs-l: 44px; }
+    .hero-grid { gap: 48px; }
+    .exp-strip { grid-template-columns: 1fr 1fr; }
+    .exp-item:nth-child(3) { border-left: none; }
+    .exp-item:nth-child(n+3) { border-top: 1px solid var(--line); }
+    .cards-3, .cols-3 { grid-template-columns: 1fr; }
+    .cols-3 { border-top: none; }
+    .col, .col + .col { padding: 26px 0; border-left: none; border-top: 1px solid var(--line); }
+    .col:first-child { border-top: 2px solid var(--gold); }
+    .fractional { grid-template-columns: 1fr; gap: 32px; }
+    .about-grid { grid-template-columns: 340px 1fr; gap: 48px; }
+    .insights-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 800px) {
+    :root { --fs-l: 34px; --fs-m: 21px; --fs-s: 18px; }
+    .wrap { padding: 0 20px; }
+    .header-inner { flex-wrap: wrap; row-gap: 10px; padding-top: 12px; padding-bottom: 12px; }
+    header img.logo { height: 40px; }
+    nav { order: 3; width: 100%; gap: 28px; justify-content: center; border-top: 1px solid var(--line); padding-top: 10px; }
+    section { padding: 72px 0; }
+    .hero { padding-top: 40px; }
+    .hero-grid { grid-template-columns: 1fr; gap: 36px; }
+    .hero-photo { order: -1; }
+    .hero-photo img { max-width: 100%; aspect-ratio: 1 / 1; object-position: center 25%; }
+    .hero h1 { margin-bottom: 20px; }
+    .hero-ctas .btn { width: 100%; text-align: center; }
+    .exp-strip { margin-top: 48px; grid-template-columns: 1fr; }
+    .exp-item { padding: 20px 0; }
+    .exp-item + .exp-item, .exp-item:nth-child(3) { border-left: none; border-top: 1px solid var(--line); }
+    .quotes, .insights-grid, .fit-list { grid-template-columns: 1fr; }
+    .card { padding: 28px 24px; }
+    .sub-block, .fractional, .fit { margin-top: 72px; }
+    .fit { padding: 34px 22px; }
+    .fit .btn { width: 100%; text-align: center; }
+    .quote { padding: 30px 24px; }
+    .about-grid { grid-template-columns: 1fr; gap: 32px; }
+    .insight { padding: 28px 24px; }
+    .cta { padding: 72px 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap header-inner">
+    <a href="index.html" aria-label="MADE home"><img class="logo" src="assets/images/logo.png" alt="made." width="104" height="52"></a>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="insights/index.html">Insights</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary btn-small" href="https://zcal.co/katerinabraga/call" target="_blank" rel="noopener">Book a call</a>
+  </div>
+</header>
+
+<main>
+
+<!-- 1. Hero -->
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1>Turn complex expertise<br>into deals</h1>
+        <p class="accent">Katerina Braga<br>Industrial Marketing &amp; Communications Consultant</p>
+        <p class="sub">Helping technical companies and consultancies in energy and industry explain complex offers clearly and convince their buyers.</p>
+        <p class="sub-strong">Strategy and hands-on delivery.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="https://zcal.co/katerinabraga/call" target="_blank" rel="noopener">Discuss your project</a>
+          <a class="btn btn-secondary" href="#offers">See how I can help</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/images/katerina-braga-hero.jpg" alt="Katerina Braga, industrial marketing and communications consultant" width="979" height="1400" fetchpriority="high">
+      </div>
+    </div>
+
+    <div class="exp-strip">
+      <div class="exp-item"><b>20+ years</b>in B2B marketing and communications</div>
+      <div class="exp-item"><b>Expertise</b>in energy, oil &amp; gas, IT &amp; telecom</div>
+      <div class="exp-item"><b>5 marketing departments</b>built from scratch</div>
+      <div class="exp-item"><b>Based in Vienna</b>working across the EU</div>
+    </div>
+  </div>
+</div>
+
+<!-- 2. Offers + how we work -->
+<section id="offers">
+  <div class="wrap">
+    <p class="eyebrow">My offers</p>
+    <h2 class="section-title">Projects with a fixed scope, and ongoing support where the task needs it.</h2>
+
+    <div class="cards-3">
+      <div class="card">
+        <div class="num">01</div>
+        <h3>Personal brand &amp; LinkedIn for tech experts</h3>
+        <p>Your expert knows the subject. The buyers who choose suppliers have never heard of them. You get a clear expert position, a rewritten profile, the first publications and a 90-day plan your team can run.</p>
+      </div>
+      <div class="card">
+        <div class="num">02</div>
+        <h3>Positioning &amp; messaging for products and services</h3>
+        <p>Your founder, your engineer and your sales lead each explain the offer differently. We settle on one version, tested against what three of your own buyers actually say, then write the messages and the page copy that follow from it.</p>
+      </div>
+      <div class="card">
+        <div class="num">03</div>
+        <h3>Sales presentations &amp; solution briefs</h3>
+        <p>Your team can explain the solution in the room, but has nothing to leave behind. You get the presentation, the solution brief, the datasheet and the answers to the objections that come up in every deal.</p>
+      </div>
+    </div>
+
+    <div class="sub-block">
+      <h3 class="sub-title">How we work together</h3>
+      <p class="section-lead">Every project starts with strategy and the materials built on it. Then, if needed, you decide who carries it forward.</p>
+      <div class="cols-3">
+        <div class="col">
+          <h4>I deliver it</h4>
+          <p>I run the work with you on an ongoing basis, for example, your experts' LinkedIn presence.</p>
+        </div>
+        <div class="col">
+          <h4>Your team, with my supervision</h4>
+          <p>Your team executes. I set the direction, review the work and coach where needed.</p>
+        </div>
+        <div class="col">
+          <h4>Your team, with my AI tools</h4>
+          <p>Your team works on its own with the AI-supported workflows and templates I set up for you.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fractional">
+      <div class="intro">
+        <h3 class="sub-title">Fractional and ongoing support</h3>
+        <p>For companies with no marketing function, and for teams that deliver but have no one setting direction.</p>
+        <p>Depending on what the role needs, I either run the marketing myself or set the direction and steer your team. Either way, we start by settling the positioning, because everything after it depends on it.</p>
+        <p class="note">Both run month to month, with a minimum term agreed at the start. Scope depends on the role.</p>
+      </div>
+      <div class="roles">
+        <div class="role">
+          <h4>Part-time marketing manager</h4>
+          <p>I run the work: expert and founder visibility, outreach to named target companies, content and the website. For companies where there is no one to do it.</p>
+        </div>
+        <div class="role">
+          <h4>Fractional marketing lead</h4>
+          <p>I own the plan and the priorities, and steer whoever delivers. For teams that have people but no marketing leadership.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fit">
+      <p class="eyebrow">This works well when</p>
+      <ul class="fit-list">
+        <li>Your offer is technical or complex, and buyers need time to see what makes it different.</li>
+        <li>Your experts know their subject deeply, but that knowledge isn't yet visible to the people who choose suppliers.</li>
+        <li>Your sales conversations start with explaining the basics, and your team lacks materials that do it for them.</li>
+        <li>You're launching a service or product, entering a new market or preparing for an event, and need a clear story fast.</li>
+        <li>New business comes through personal networks, and there is no marketer in the firm to build anything beyond that.</li>
+        <li>You have people delivering marketing, but no one deciding what it should achieve.</li>
+      </ul>
+      <a class="btn btn-primary" href="https://zcal.co/katerinabraga/call" target="_blank" rel="noopener">Discuss your project</a>
+    </div>
+  </div>
+</section>
+
+<!-- 3. Testimonials -->
+<section class="alt">
+  <div class="wrap">
+    <p class="eyebrow">Client feedback</p>
+    <h2 class="section-title">What they say</h2>
+    <div class="quotes">
+      <figure class="quote">
+        <p>What I value most is the quality of her challenge: she tests a boutique against peer benchmarks I could not have assembled from inside my own market, and holds the offer to an external standard. Two reports arrived within two weeks; both are still in use. [...] It sharpened the positioning of our advisory solutions, with a single path along the transition decisions our clients actually have to make, rather than a service menu.</p>
+        <figcaption class="by"><b>Dr. Sebastian Rath</b>, Managing Director, Lighthouse Bay Solutions · Amsterdam</figcaption>
+      </figure>
+      <figure class="quote">
+        <p>Katerina rebuilt the communications function from scratch, from strategic planning to systematic work with media, customers and employees. [...] In two years, Ukrtransgaz entered global gas markets and rapidly grew its customer base: the number of foreign customers rose by 79%.</p>
+        <figcaption class="by"><b>Sergii Perelona</b>, CEO, Gas Storage System Operator of Ukraine (Ukrtransgaz) · Kyiv, 2020–2022</figcaption>
+      </figure>
+      <figure class="quote">
+        <p>I was very happy with Katerina's work. She developed a marketing strategy for me, and the collaboration was smooth, professional and very pleasant. She understood what I needed quickly and brought helpful ideas to the process.</p>
+        <figcaption class="by"><b>Manuel Tauber</b>, U4Success · Vienna</figcaption>
+      </figure>
+      <figure class="quote">
+        <p>It was especially valuable to me that the strategy was not built from a template but around me: my strengths, experience and potential audience were analysed, and on that basis she proposed a specific product and developed a strategy to promote it. I received not only the idea for a mini-course but a clear plan: who to offer it to and how, where to find potential clients, and how to build sales communication on Instagram.</p>
+        <figcaption class="by"><b>Olga Pelekhova-Laugier, PhD</b>, neurologist and founder of a sophrology school · Paris</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 4. About me -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <img src="assets/images/katerina-braga-cim-graduation.jpg" alt="Katerina Braga at her CIM Diploma graduation in London" width="900" height="1125">
+      <div class="about-text text-col">
+        <p class="eyebrow">About me</p>
+        <p class="hi">Hi, I'm Katerina Braga.</p>
+        <p>My superpower has always been translating technical, complex topics into human language, and convincing people with words. I've been doing it for 20 years in energy, oil &amp; gas, IT and telecom.</p>
+        <p>But it's not just about texts. I've been responsible for communications in transformation projects involving thousands of people, senior managers and political stakeholders from different countries. Along the way, I built marketing and communications departments from scratch five times.</p>
+        <p>Today I work independently, combining that experience and my knowledge of energy and industrial markets with a strategic view and hands-on delivery. I do it for technical companies and consultancies, with a clear understanding of how clients are won, how modern marketing really works, what your buyers actually want and how to give it to them.</p>
+        <p>Continuous learning is my principle and my guilty pleasure. The latest proof: a CIM Diploma in Professional Marketing from Oxford College of Marketing.</p>
+        <p style="margin-top:28px;"><a class="link-gold" href="about.html">Read my full story →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. Latest insights -->
+<section class="alt">
+  <div class="wrap">
+    <div class="insights-head">
+      <div>
+        <p class="eyebrow">From the blog</p>
+        <h2 class="section-title">Latest insights</h2>
+      </div>
+      <a class="link-gold" href="insights/index.html">See all insights →</a>
+    </div>
+    <div class="insights-grid">
+      <a class="insight" href="insights/client-acquisition-system-for-b2b-consultants.html">
+        <h3>How B2B Consulting Businesses Can Attract Clients Online</h3>
+        <p>A simple and effective system for B2B consultants to attract clients online through LinkedIn, a website, and a newsletter.</p>
+        <span>Read more →</span>
+      </a>
+      <a class="insight" href="insights/how-b2b-consultants-attract-clients-on-linkedin.html">
+        <h3>How B2B Consultants and Service Firms Attract Clients on LinkedIn</h3>
+        <p>A practical breakdown of how to build a LinkedIn client acquisition system for B2B consulting practice and service firms.</p>
+        <span>Read more →</span>
+      </a>
+      <a class="insight" href="insights/personal-brand-energy-club-interview.html">
+        <h3>"If a Leader Isn't Building a Personal Brand, Their Business Is Missing Opportunities"</h3>
+        <p>An interview on B2B communications in the energy sector: decision-making, personal brand, and LinkedIn advice for entering European markets.</p>
+        <span>Read more →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 6. Closing CTA -->
+<div class="cta">
+  <div class="wrap">
+    <h2>Have a complex offer your buyers don't fully get yet?</h2>
+    <a class="btn btn-primary" href="https://zcal.co/katerinabraga/call" target="_blank" rel="noopener">Discuss your project</a>
+  </div>
+</div>
+
+</main>
+
+<!-- 7. Footer / contact -->
+<footer id="contact">
+  <div class="wrap">
+    <h3>Contact me</h3>
+    <div class="contact-icons">
+      <a class="icon-circle" href="mailto:kate@made.expert" title="kate@made.expert" aria-label="Email">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="M3.5 6l8.5 7 8.5-7"/></svg>
+      </a>
+      <a class="icon-circle" href="https://www.linkedin.com/in/katerina-braga/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V23h-4v-6.7c0-1.6-.03-3.66-2.23-3.66-2.23 0-2.57 1.74-2.57 3.55V23h-4V8.5z"/></svg>
+      </a>
+      <a class="icon-circle" href="https://zcal.co/katerinabraga/call" target="_blank" rel="noopener" title="Book a call" aria-label="Book a call">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M3 9.5h18M8 3v3M16 3v3"/><rect x="7" y="12.5" width="3" height="3"/></svg>
+      </a>
+    </div>
+    <p>MADE · Katerina Braga · Vienna</p>
+    <p class="footer-legal"><a href="legal/impressum.html">Impressum</a> · <a href="legal/datenschutzerklarung.html">Datenschutzerklärung</a> · <a href="legal/agb.html">AGB</a> · © <span class="year">2026</span> Marketing Agency "Digital Energy" e.U.</p>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://made.expert/#katerina",
+      "name": "Katerina Braga",
+      "jobTitle": "Industrial Marketing & Communications Consultant",
+      "url": "https://made.expert/about.html",
+      "image": "https://made.expert/assets/images/katerina-braga-hero.jpg",
+      "address": { "@type": "PostalAddress", "addressLocality": "Vienna", "addressCountry": "AT" },
+      "knowsLanguage": ["en", "de", "uk", "ru"],
+      "hasCredential": { "@type": "EducationalOccupationalCredential", "name": "CIM Diploma in Professional Marketing", "recognizedBy": { "@type": "Organization", "name": "Oxford College of Marketing" } },
+      "sameAs": ["https://www.linkedin.com/in/katerina-braga/"]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://made.expert/#made",
+      "name": "MADE",
+      "legalName": "Marketing Agency \"Digital Energy\" e.U.",
+      "url": "https://made.expert/",
+      "logo": "https://made.expert/assets/images/logo.png",
+      "description": "Industrial marketing and communications for technical companies and consultancies in energy and industry. Strategy and hands-on delivery.",
+      "founder": { "@id": "https://made.expert/#katerina" },
+      "areaServed": "Europe",
+      "email": "kate@made.expert",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Marketing and communications services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Personal brand & LinkedIn for tech experts", "description": "A clear expert position, a rewritten LinkedIn profile, the first publications and a 90-day plan the client's team can run." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Positioning & messaging for products and services", "description": "One agreed version of the offer, tested against what the client's own buyers say, with the messages and page copy that follow from it." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sales presentations & solution briefs", "description": "Sales presentation, solution brief, datasheet and answers to recurring objections." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Part-time marketing manager", "description": "Hands-on marketing for companies without a marketing function: expert and founder visibility, outreach to named target companies, content and the website. Month to month." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fractional marketing lead", "description": "Ownership of the marketing plan and priorities, steering the people who deliver. Month to month." } }
+        ]
+      },
+      "sameAs": ["https://www.linkedin.com/in/katerina-braga/"]
+    }
+  ]
+}
+</script>
+
+<div id="cookie-consent-banner" style="display:none;position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#00264d;color:#fff4e0;padding:20px 24px;box-shadow:0 -2px 12px rgba(0,0,0,0.25);font-family:'Inter','Helvetica Neue',Arial,sans-serif;">
+  <div style="max-width:1360px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;">
+    <p style="margin:0;font-size:var(--fs-s);line-height:1.5;max-width:720px;">
+      We use cookies for basic site function and, with your consent, for analytics (Google Analytics). See our
+      <a href="legal/datenschutzerklarung.html" style="color:#e6b800;">Datenschutzerklärung</a> for details.
+    </p>
+    <div style="display:flex;gap:10px;flex-shrink:0;">
+      <button id="cookie-consent-decline" style="background:transparent;color:#fff4e0;border:1px solid rgba(255,244,224,0.4);padding:10px 18px;border-radius:6px;font-size:var(--fs-s);font-weight:600;cursor:pointer;font-family:inherit;">Decline</button>
+      <button id="cookie-consent-accept" style="background:#d24e00;color:#fff4e0;border:none;padding:10px 18px;border-radius:6px;font-size:var(--fs-s);font-weight:600;cursor:pointer;font-family:inherit;">Accept</button>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  document.querySelectorAll('.year').forEach(function (el) { el.textContent = new Date().getFullYear(); });
+  function getCookie(name) {
+    var m = document.cookie.match('(?:^|; )' + name + '=([^;]*)');
+    return m ? decodeURIComponent(m[1]) : null;
+  }
+  function setCookie(name, value, days) {
+    var d = new Date();
+    d.setTime(d.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = name + '=' + encodeURIComponent(value) + ';expires=' + d.toUTCString() + ';path=/;SameSite=Lax';
+  }
+  function loadAnalyticsScripts() {
+    var gaId = 'G-3PFPTVDL9S';
+    var gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+    document.head.appendChild(gaScript);
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', gaId);
+  }
+  function showBanner() { var el = document.getElementById('cookie-consent-banner'); if (el) el.style.display = 'block'; }
+  function hideBanner() { var el = document.getElementById('cookie-consent-banner'); if (el) el.style.display = 'none'; }
+  var consent = getCookie('made_expert_cookie_consent');
+  if (consent === 'accepted') { loadAnalyticsScripts(); }
+  else if (consent !== 'declined') { document.addEventListener('DOMContentLoaded', showBanner); }
+  document.addEventListener('DOMContentLoaded', function () {
+    var a = document.getElementById('cookie-consent-accept');
+    var d = document.getElementById('cookie-consent-decline');
+    if (a) a.addEventListener('click', function () { setCookie('made_expert_cookie_consent', 'accepted', 180); hideBanner(); loadAnalyticsScripts(); });
+    if (d) d.addEventListener('click', function () { setCookie('made_expert_cookie_consent', 'declined', 180); hideBanner(); });
+  });
+})();
+</script>
+
+</body>
+</html>
